@@ -22,7 +22,6 @@ public class MouseMovements {
 		action.moveToElement(driver.findElement(By.linkText("//a[contains(text(),'Add-Ons')]"))).build().perform();
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("//a[contains(text(),'Student Discount')]")).click();
-				}
-				
-
+			}
+	
 }
